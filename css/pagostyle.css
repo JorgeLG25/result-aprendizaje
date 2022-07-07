@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  display: inline;
+}
+
+.infodepago span{
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .infodepago .labelsex{
+    padding: 6px 30px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+  }
+  
+  .boxSexo:checked + label{
+    background: #F06931;
+    color: white;
+    border: 2px solid #F06931;
+  }
+  
+  .boxSexo{
+    display: none;
+  }
+
+  .orden{
+    max-width: 50%;
+    margin: 2% auto 2% 15%;
+    padding: 0;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.082), 
+    0 5px 10px 0 rgba(0, 0, 0, 0.24);
+    display: block;
+    color: #707070;
+  }
+
+  .orden .burrito
+  {
+    outline: solid 2px #F06931;
+    width: 70%;
+    height: 100%;
+    margin: 0;
+    padding: 0.5%;
+    text-align: left;
+    border-radius: 15px 0 0 15px;
+  }
+
+  .orden .imgdb{
+    outline: solid 2px #F06931;
+    max-height: 100%;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 15px 15px 0;
+    text-align: center;
+  }
+
+  .imgdb img{
+    width: 62%;
+    height: 85%;
+  }
+
+
+  .pago{
+    position: relative;
+    z-index: 1;
+    max-width: 50%;
+    margin: 0 0 0 15%;
+    padding: 0.5%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.082), 
+    0 5px 10px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  .pago .ddt{
+    text-align: left;
+    margin: 0 auto 2% 5%;
+    padding: 2%;
+    width: 70%;
+  }
+
+  .pago p{
+    color: #707070;
+  }
+
+  .pago h1{
+    color: #707070;
+  }
+
+  form input{
+    text-align: center;
+    text-transform: uppercase;
+    color: #F06931;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    background: #fff;
+    width: 80%;
+    border: none;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.082), 
+    0 5px 15px 0 rgba(0, 0, 0, 0.24);
+}
+
+form input:focus{
+    outline: solid 2px #F06931;
+    color: #F06931;    
+}
+
+
+.direccion{
+  position: relative;
+  color: #707070;
+    z-index: 1;
+    max-width: 20%;
+    margin: -52% 10% 0 70%;
+    padding: 0.5%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.082), 
+    0 5px 10px 0 rgba(0, 0, 0, 0.24);
+}
+
+.direccion img{
+  height: 200px;
+  width: 250px;
+}
+
+.direccion .importotal{
+  color: #F06931;
+  font-weight: bold;
+}
+
+.direccion input{
+  background: #F06931;
+  color: #FFF;
+  width: 50%;
+  border: none;
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 15px;
+}

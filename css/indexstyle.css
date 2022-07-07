@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body .banner{
+    background-image: url(../img/b_login.png);
+    background-size: 100%;
+    height: 50vh;
+    width: 100%;
+    margin-bottom: 0%;
+    margin-top: -8%;
+    text-align: center;
+}
+
+.banner h1{
+    margin: auto;
+    color: white;
+    font-size: 10vh;
+    padding-top: 10%;
+    font-family: 'Galada', cursive;
+}
+
+.login{
+    position: relative;
+    z-index: 1;
+    max-width: 460px;
+    margin: 130px auto 0;
+    padding: 0;
+    text-align: center;
+}
+    
+form input[type=email],
+input[type=password]{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    background: #fff;
+    width: 100%;
+    border: none;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.082), 
+    0 5px 15px 0 rgba(0, 0, 0, 0.24);
+}
+
+form input[type=submit]{
+    background: #F06931;
+    color: #FFF;
+    width: 50%;
+    border: none;
+    font-weight: bold;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+form input[type=email]:focus,
+input[type=password]:focus{
+    outline: solid 2px #F06931;
+    color: #F06931;    
+}
+
+form input[type=submit]:hover{
+    background: #D41B30;
+}
+
+
+form a{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+}
+
+
+.login .nc{
+    margin: auto;
+    text-align: right;
+    width: 100%;
+}
+
+.nc p{
+    color: gray;
+    font-size: 16px;
+    margin: auto;
+}
+
+.nc a{
+    text-decoration: none;
+    color: #F06931;
+    font-size: 16px;
+    margin: auto;
+}
